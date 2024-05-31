@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0ebe1;
+}
+
+.sidebar {
+    background-color: #6f4e37;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    height:  100%;
+
+    overflow: auto;
+}
+
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #503322;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #40291f;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.container {
+    background-color: #fff;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 280px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #6f4e37;
+    text-align: center;
+    font-size: 40px;
+}
+
+#coffee-details {
+    text-align: left;
+}
+
+#coffee-details h2 {
+    color: #6f4e37;
+    margin: 30px;
+    font-size: 50px;
+}
+
+#coffee-details p {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin: 30px;
+}
+
+#coffee-details img {
+    border-radius: 8px;
+    size: 20px;
+}
+
+
+
+#coffee-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 20px; /* Optional: Add some margin for spacing */
+}
+
+#coffee-details img {
+    max-width: 610px;
+    height: auto;
+    margin-top: 0px; /* Adjust the margin as needed */
+}
+
+
+.header {
+    background-color: #6f4e37;
+    color: white;
+    padding: -100px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    position: static;
+}
+
+.logo img {
+    height: 180px; 
+    margin-left: 38px;
+    margin-right: 20px; /* Add some spacing between logo and site title */
+    padding-bottom: -999px;
+}
+
+.site-title {
+    font-size: 100px;
+    color:#f0ebe1;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+h4{
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+
+.coffee-details {
+    display: flex;
+    align-items: center;
+}
+
+.coffee-image {
+    max-width: auto; /* Adjust the width of the image as needed */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.coffee-text {
+    flex-grow: 1; /* Allow the text to take up remaining space */
+}
+
+.coffee-text h2 {
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+.coffee-text p {
+    color: #333;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+
+.header-nav {
+    margin-left: 140px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 1px;
+    padding-top: 10px;
+}
+
+.header-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul li a i {
+    margin-left: 20px;
+}
+
+p{
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2{
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px;
+}
+
+h3{
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px;
+}
+
+#introduction p {
+  font-size: 200px;
+}
